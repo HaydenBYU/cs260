@@ -1,0 +1,79 @@
+div{
+    background: white;
+    background-color:rgb(236, 231, 231);
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+h1{
+    text-align:center;
+    
+}
+/* * {
+
+}  all members and it has less precedence than most others */
+
+.fireHeadings{
+    color: rgb(255, 145, 0);
+    border-radius: 25px;
+    background-color: rgb(28, 28, 209);
+    display:block;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+#bang{
+    color: rgb(119, 0, 255);
+} 
+/* li[selected] */
+body{
+    background-color:rgb(236, 231, 231);
+    border: solid 5px rgb(1, 1, 77);
+    margin: 0;
+    height: 100vh;
+    position:fixed;
+    
+    
+}
+.menuul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a042e;
+}
+.menuli{
+    float: left;
+    border-right: solid orange;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #0a042e;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: cornflowerblue;
+}
+#menuRight{
+    border-right: coral;
+}
+.parent {
+    text-align: center;
+  }
+  .parent > ul {
+    display: inline-block;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:10em;
+  }
+  .contactInfo{
+      margin-left: 20px;
+  }
